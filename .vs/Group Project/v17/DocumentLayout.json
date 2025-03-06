@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\Group Project\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|solutionrelative:Group Project\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "source.c",
+              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\Group Project\\source.c",
+              "RelativeDocumentMoniker": "Group Project\\source.c",
+              "ToolTip": "C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\Group Project\\source.c*",
+              "RelativeToolTip": "Group Project\\source.c*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-06T19:25:30.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
