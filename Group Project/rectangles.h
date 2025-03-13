@@ -3,6 +3,6 @@
 #pragma once
 
 #include <stdbool.h>
-#include "sidelenghts.h"
+#include "sidelengths.h"
 
 bool isRectangle(SIDES a );

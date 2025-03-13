@@ -24,7 +24,7 @@
     <ClCompile Include="isRectangle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sidelenghts.c">
+    <ClCompile Include="sidelengths.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="rectangles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sidelenghts.h">
+    <ClInclude Include="sidelengths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

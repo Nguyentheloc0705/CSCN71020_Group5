@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 #include <math.h>
-#include "sidelenghts.h"
+#include "sidelengths.h"
 #include "rectangles.h"
 
 bool isRectangle(SIDES q) {

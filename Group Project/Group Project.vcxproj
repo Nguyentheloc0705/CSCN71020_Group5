@@ -129,13 +129,13 @@
   <ItemGroup>
     <ClCompile Include="interiorAngles.c" />
     <ClCompile Include="isRectangle.c" />
-    <ClCompile Include="sidelenghts.c" />
+    <ClCompile Include="sidelengths.c" />
     <ClCompile Include="source.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="interiorAngles.h" />
     <ClInclude Include="rectangles.h" />
-    <ClInclude Include="sidelenghts.h" />
+    <ClInclude Include="sidelengths.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
