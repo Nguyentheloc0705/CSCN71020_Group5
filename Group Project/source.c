@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include "interiorAngles.h"
 
 void get_triangle_input() {
 }
@@ -9,6 +10,7 @@ void get_rectangle_input() {
 }
 
 int main() {
+
     int choice;
     while (1) {
         printf("\nMenu:\n1. Triangle Feature\n2. Rectangle Feature\n3. Exit\n");
