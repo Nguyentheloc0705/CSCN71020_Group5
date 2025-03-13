@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+#include "Inputs.h"
 
-void get_triangle_input() {
-}
+
+
 
 void get_rectangle_input() {
 
@@ -15,7 +16,10 @@ int main() {
         printf("Enter your choice: ");
         scanf_s("%d", &choice);
         if (choice == 1) {
-            get_triangle_input();
+            float firstLength;
+            float secondLength;
+            float thirdLength;
+            get_triangle_input(&firstLength, &secondLength, &thirdLength);
         }
         else if (choice == 2) {
             get_rectangle_input();
