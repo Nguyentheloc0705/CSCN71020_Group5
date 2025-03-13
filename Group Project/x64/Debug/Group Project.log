@@ -1,0 +1,3 @@
+﻿  source.c
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\source.c(14,16): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  Group Project.vcxproj -> C:\Users\sebas\Source\Repos\CSCN71020_Group5\x64\Debug\Group Project.exe
