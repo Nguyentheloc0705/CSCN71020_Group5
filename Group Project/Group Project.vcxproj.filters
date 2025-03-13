@@ -21,9 +21,21 @@
     <ClCompile Include="interiorAngles.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="isRectangle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sidelenghts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="interiorAngles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sidelenghts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

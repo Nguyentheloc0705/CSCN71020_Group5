@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 #include "interiorAngles.h"
+#include "rectangles.h"
+#include <stdbool.h>
 
 void get_triangle_input() {
 }
@@ -11,7 +13,8 @@ void get_rectangle_input() {
 
 int main() {
 
-    int choice;
+    bool i = isRectangle( 10.0,  10.0,  0.0,  7.0,  5.0,  0.0,  0.0,  0.0);
+   /* int choice;
     while (1) {
         printf("\nMenu:\n1. Triangle Feature\n2. Rectangle Feature\n3. Exit\n");
         printf("Enter your choice: ");
@@ -28,6 +31,6 @@ int main() {
         else {
             printf("Invalid choice. Try again.\n");
         }
-    }
+    }*/
     return 0;
 }

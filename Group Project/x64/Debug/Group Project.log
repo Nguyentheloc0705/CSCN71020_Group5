@@ -1,10 +1,2 @@
-﻿  interiorAngles.c
-  source.c
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\interiorAngles.c(20,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\interiorAngles.c(21,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\interiorAngles.c(22,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\interiorAngles.c(15,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\interiorAngles.c(16,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\interiorAngles.c(17,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Generating Code...
+﻿  source.c
   Group Project.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.exe
