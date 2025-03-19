@@ -1,10 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\",
+  "WorkspaceRootPath": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\Group Project\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\SpaceRectangle.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|solutionrelative:Group Project\\SpaceRectangle.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|solutionrelative:Group Project\\source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\RectangleSides.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|solutionrelative:Group Project\\RectangleSides.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\RectangleSides.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|solutionrelative:Group Project\\RectangleSides.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\SpaceRectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A3E7CCD-8C9D-41EB-950C-8EA3637446AE}|Group Project\\Group Project.vcxproj|solutionrelative:Group Project\\SpaceRectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +33,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,16 +52,85 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "math.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\math.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\math.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\math.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\math.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-19T00:55:39.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RectangleSides.c",
+              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\RectangleSides.c",
+              "RelativeDocumentMoniker": "Group Project\\RectangleSides.c",
+              "ToolTip": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\RectangleSides.c",
+              "RelativeToolTip": "Group Project\\RectangleSides.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-19T00:55:23.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RectangleSides.h",
+              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\RectangleSides.h",
+              "RelativeDocumentMoniker": "Group Project\\RectangleSides.h",
+              "ToolTip": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\RectangleSides.h",
+              "RelativeToolTip": "Group Project\\RectangleSides.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-19T00:55:14.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "source.c",
-              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\Group Project\\source.c",
+              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\source.c",
               "RelativeDocumentMoniker": "Group Project\\source.c",
-              "ToolTip": "C:\\Users\\mattb\\source\\repos\\Group Project\\CSCN71020_Group5\\Group Project\\source.c*",
-              "RelativeToolTip": "Group Project\\source.c*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\source.c",
+              "RelativeToolTip": "Group Project\\source.c",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-06T19:25:30.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpaceRectangle.c",
+              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\SpaceRectangle.c",
+              "RelativeDocumentMoniker": "Group Project\\SpaceRectangle.c",
+              "ToolTip": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\SpaceRectangle.c*",
+              "RelativeToolTip": "Group Project\\SpaceRectangle.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-13T18:42:57.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpaceRectangle.h",
+              "DocumentMoniker": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\SpaceRectangle.h",
+              "RelativeDocumentMoniker": "Group Project\\SpaceRectangle.h",
+              "ToolTip": "C:\\Users\\mattb\\source\\repos\\CSCN71020_Group5\\Group Project\\SpaceRectangle.h",
+              "RelativeToolTip": "Group Project\\SpaceRectangle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-13T18:01:06.973Z",
               "EditorCaption": ""
             }
           ]

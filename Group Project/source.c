@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <math.h>
+#include <stdbool.h>
+#include "RectangleSides.h"
+#include "SpaceRectangle.h"
 
 void get_triangle_input() {
     float sidelength1 = 0;
@@ -34,7 +36,20 @@ void get_triangle_input() {
 }
 
 void get_rectangle_input() {
+    int x1, x2, x3, x4, y1, y2, y3, y4;
+    bool Rectangle = true;
+    scanf("%d", &x1);
+    scanf("%d", &y1);
+    scanf("%d", &x2);
+    scanf("%d", &y2);
+    scanf("%d", &x3);
+    scanf("%d", &y3);
+    scanf("%d", &x4);
+    scanf("%d", &y4);
 
+    printf("%d", x1);
+   SIDES q = getSides(x1, y1, x2, y2, x3, y3, x4, y4);
+    RectMath(q, Rectangle);
 }
 
 int main() {

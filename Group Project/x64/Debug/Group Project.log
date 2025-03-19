@@ -1,5 +1,2 @@
-﻿  source.c
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h(1,1): warning C4821: Unable to determine Unicode encoding type, please save the file with signature (BOM)
-  (compiling source file 'source.c')
-  
-  Group Project.vcxproj -> C:\Users\mattb\source\repos\Group Project\CSCN71020_Group5\x64\Debug\Group Project.exe
+﻿  SpaceRectangle.c
+  Group Project.vcxproj -> C:\Users\mattb\source\repos\CSCN71020_Group5\x64\Debug\Group Project.exe
