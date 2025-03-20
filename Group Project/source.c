@@ -1,31 +1,29 @@
+#ifndef TEST_SOURCE_H
+#define TEST_SOURCE_H
+
 #include <stdio.h>
-#include <math.h>
+#include <assert.h>
+#include <stdbool.h>
+#include "RectangleSides.h"
+#include "SpaceRectangle.h"
 
-void get_triangle_input() {
+void run_tests() {
+    printf("Running tests...\n");
+
+    // Test getSides
+    SIDES q = getSides(0, 0, 4, 0, 4, 3, 0, 3);
+    assert(q.AB == 4.0);
+    assert(q.BC == 3.0);
+    assert(q.CD == 4.0);
+    assert(q.AD == 3.0);
+
+    // Test RectMath
+    q = (SIDES){ 4.0, 3.0, 0.0, 3.0, 0.0, 4.0 };
+    printf("Expected Perimeter: 14\n");
+    printf("Expected Area: 12\n");
+    RectMath(q, true);
+
+    printf("All tests passed!\n");
 }
 
-void get_rectangle_input() {
-
-}
-
-int main() {
-    int choice;
-    while (1) {
-        printf("\nMenu:\n1. Triangle Feature\n2. Rectangle Feature\n3. Exit\n");
-        printf("Enter your choice: ");
-        scanf_s("%d", &choice);
-        if (choice == 1) {
-            get_triangle_input();
-        }
-        else if (choice == 2) {
-            get_rectangle_input();
-        }
-        else if (choice == 3) {
-            break;
-        }
-        else {
-            printf("Invalid choice. Try again.\n");
-        }
-    }
-    return 0;
-}
+#endif 
