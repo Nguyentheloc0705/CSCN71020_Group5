@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="RectangleSides.c" />
     <ClCompile Include="source.c" />
+    <ClCompile Include="SpaceRectangle.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RectangleSides.h" />
+    <ClInclude Include="SpaceRectangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

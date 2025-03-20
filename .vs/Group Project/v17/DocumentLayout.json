@@ -17,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,11 +33,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -47,7 +51,7 @@
               "RelativeDocumentMoniker": "Group Project\\source.c",
               "ToolTip": "C:\\Users\\mattb\\source\\repos\\Nguyentheloc0705\\CSCN71020_Group5\\Group Project\\source.c",
               "RelativeToolTip": "Group Project\\source.c",
-              "ViewState": "AgIAABIAAAAAAAAAAAAwwCQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-20T17:26:14.087Z",
               "EditorCaption": ""

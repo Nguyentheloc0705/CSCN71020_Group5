@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\mattb\source\repos\Nguyentheloc0705\CSCN71020_Group5\x64\Debug\Group Project.exe</FullPath>
+=======
+      <FullPath>C:\Users\mattb\source\repos\CSCN71020_Group5\x64\Debug\Group Project.exe</FullPath>
+>>>>>>> 76bd98df534b12a128c712beeb36e705eb099be6
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
