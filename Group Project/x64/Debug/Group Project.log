@@ -1,23 +1,14 @@
 ﻿  Inputs.c
-  interiorAngles.c
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(11,39): warning C4047: '<': 'char *' differs in levels of indirection from 'int'
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(31,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(39,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(47,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(62,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(71,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(80,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(89,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(98,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(107,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(116,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(125,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.c(20,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.c(21,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.c(22,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.c(15,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.c(16,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.c(17,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  source.c
-  Generating Code...
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(14,39): warning C4047: '<': 'char *' differs in levels of indirection from 'int'
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(34,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(42,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(50,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(65,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(74,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(83,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(92,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(101,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(110,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(119,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c(128,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Group Project.vcxproj -> C:\Users\david\Source\Repos\CSCN71020_Group5Project\x64\Debug\Group Project.lib
