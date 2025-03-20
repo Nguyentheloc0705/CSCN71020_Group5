@@ -1,12 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-<<<<<<< HEAD
-//#include <math.h>
-=======
 #include <stdbool.h>
 #include "RectangleSides.h"
 #include "SpaceRectangle.h"
->>>>>>> 76bd98df534b12a128c712beeb36e705eb099be6
 
 void get_triangle_input() {
     float sidelength1 = 0;
