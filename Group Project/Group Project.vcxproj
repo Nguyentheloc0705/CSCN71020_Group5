@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="interiorAngles.c" />
-    <ClCompile Include="isRectangle.c" />
+    <ClCompile Include="rectangles.c" />
     <ClCompile Include="sidelengths.c" />
     <ClCompile Include="source.c" />
   </ItemGroup>

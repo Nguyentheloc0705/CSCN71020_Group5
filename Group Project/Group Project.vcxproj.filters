@@ -21,7 +21,7 @@
     <ClCompile Include="interiorAngles.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="isRectangle.c">
+    <ClCompile Include="rectangles.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sidelengths.c">
