@@ -127,11 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Inputs.c" />
-    <ClCompile Include="source.c" />
+    <ClCompile Include="..\..\..\..\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.c" />
+    <ClCompile Include="..\..\..\..\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\isTriangle.c" />
+    <ClCompile Include="..\..\..\..\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\source.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Inputs.h" />
+    <ClInclude Include="..\..\..\..\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\Inputs.h" />
+    <ClInclude Include="..\..\..\..\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\interiorAngles.h" />
+    <ClInclude Include="..\..\..\..\Downloads\CSCN71020_Group5-David\CSCN71020_Group5-David\Group Project\isTriangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
