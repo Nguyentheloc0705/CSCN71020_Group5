@@ -1,2 +1,18 @@
-﻿  source.c
-  Group Project.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.exe
+﻿  Inputs.c
+  isTriangle.c
+  rectangles.c
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(31,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(39,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(47,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(62,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(70,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(78,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(88,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(96,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(104,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(114,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(122,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\rectangles.c(54,3): warning C4013: 'printf' undefined; assuming extern returning int
+  source.c
+  Generating Code...
+  Group Project.vcxproj -> C:\Users\david\Source\Repos\CSCN71020_GroupProject\x64\Debug\Group Project.exe

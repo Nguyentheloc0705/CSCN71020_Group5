@@ -51,9 +51,12 @@ bool isRectangle(SIDES q) {
 
 
 	if (equality == 3 || equality == 7) {
+		printf("this is a rectangle");
 		return true;
+		
 	}
 	else {
+		printf("this is not a rectangle");
 		return false;
 	}
 	//rectangles have three matching pairs: short parallels, long parallels, and diagonals.

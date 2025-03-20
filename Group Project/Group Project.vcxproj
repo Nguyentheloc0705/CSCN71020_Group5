@@ -127,13 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Inputs.c" />
     <ClCompile Include="interiorAngles.c" />
+    <ClCompile Include="isTriangle.c" />
     <ClCompile Include="rectangles.c" />
     <ClCompile Include="sidelengths.c" />
     <ClCompile Include="source.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Inputs.h" />
     <ClInclude Include="interiorAngles.h" />
+    <ClInclude Include="isTriangle.h" />
     <ClInclude Include="rectangles.h" />
     <ClInclude Include="sidelengths.h" />
   </ItemGroup>

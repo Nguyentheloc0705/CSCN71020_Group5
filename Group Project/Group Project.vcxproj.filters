@@ -27,6 +27,12 @@
     <ClCompile Include="sidelengths.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Inputs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="isTriangle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="interiorAngles.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sidelengths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="isTriangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
