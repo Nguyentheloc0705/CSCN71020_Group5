@@ -2,7 +2,7 @@
 //implementation for interior angle functions
 
 #include <stdio.h>
-#define _USE_MATH_DEFINES // for C
+//#define _USE_MATH_DEFINES // for C
 #include <math.h>
 #include "interiorAngles.h"
 
