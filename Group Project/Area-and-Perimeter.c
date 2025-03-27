@@ -28,21 +28,8 @@ void RectMath(QUADRI q, bool Rectangle) {
 	perimeter = sides1 + sides2 + sides3 + sides4;
 	printf("The Perimeter is % fl\n", perimeter);
 	if (Rectangle == true) {
-		float area = 0, min1 = 0, min2 = 0, max = 0; //sidelenght1 * sidelenght2;
-		max = sides1;
-		min1 = sides2;
-		min2 = sides3;
-		if (sides2 > max) {
-			max = sides2;
-			min1 = sides1;
-		}
-		if (sides3 > max) {
-			max = sides3;
-			min1 = sides1;
-			min2 = sides2;
-		}
-		float sideone = min1, sidetwo = min2;
-		area = min1 * min2;
+		float area = 0; //sidelenght1 * sidelenght2;
+		area = sides1 * sides2;
 		printf("The Area is %fl\n", area);
 	}
 }
