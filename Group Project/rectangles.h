@@ -5,4 +5,4 @@
 #include <stdbool.h>
 #include "sidelengths.h"
 
-bool isRectangle(SIDES a );
+bool isRectangle(QUADRI a);

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Group Project\\Group Project.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Project Testing\\Project Testing.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
