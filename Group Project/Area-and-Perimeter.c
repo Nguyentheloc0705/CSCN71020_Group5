@@ -26,7 +26,7 @@ void RectMath(QUADRI q, bool Rectangle) {
 
 
 	perimeter = sides1 + sides2 + sides3 + sides4;
-	printf("%fl\n", perimeter);
+	printf("The Perimeter is % fl\n", perimeter);
 	if (Rectangle == true) {
 		float area = 0, min1 = 0, min2 = 0, max = 0; //sidelenght1 * sidelenght2;
 		max = sides1;
@@ -43,6 +43,6 @@ void RectMath(QUADRI q, bool Rectangle) {
 		}
 		float sideone = min1, sidetwo = min2;
 		area = min1 * min2;
-		printf("%fl\n", area);
+		printf("The Area is %fl\n", area);
 	}
 }
