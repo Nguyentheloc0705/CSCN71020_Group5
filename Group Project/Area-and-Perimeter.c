@@ -4,7 +4,7 @@
 
 void RectMath(QUADRI q, bool Rectangle) {
 	float perimeter = 0;
-	float sides1 = 5, sides2 = 7, sides3 = 9, sides4;
+	float sides1 = 0, sides2 = 0, sides3 = 0, sides4 = 0;
 	if (q.AB.type == diagonal) {
 		sides1 = q.AC.length;
 		sides2 = q.BC.length;
