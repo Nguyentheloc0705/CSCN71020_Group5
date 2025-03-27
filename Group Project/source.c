@@ -13,7 +13,6 @@ void get_rectangle_input() {
 
 int main() {
 
-    bool i = isRectangle( 10.0,  10.0,  0.0,  7.0,  5.0,  0.0,  0.0,  0.0);
    /* int choice;
     while (1) {
         printf("\nMenu:\n1. Triangle Feature\n2. Rectangle Feature\n3. Exit\n");

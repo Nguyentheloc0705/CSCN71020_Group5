@@ -7,21 +7,30 @@
 #include "interiorAngles.h"
 
 
-void calcAngles(float l1, float l2, float l3) {
-	//assumes lengths are already validated to form a triangle.
-	// 
-		// cosine law
-		//	  A = cos^-1( (b^2 + c^2 - a^2) / 2bc)
-	float a1 = acos((pow(l2, 2) + pow(l3, 2) - pow(l1, 2)) / (2.0 * l2 * l3));
-	float a2 = acos((pow(l1, 2) + pow(l3, 2) - pow(l2, 2)) / (2.0 * l1 * l3));
-	float a3 = acos((pow(l1, 2) + pow(l2, 2) - pow(l3, 2)) / (2.0 * l1 * l2));
+
+
+
+double getAngle(float adjs1, float adjs2, float opps) {
+	//cosine law
+	// C = cos^-1(  ( a^2 + b^2 - c^2 ) / (2ab)  )
+	//	  C	  cos^-1     a^2             b^2             -c^2                2ab
+	double C = acos((pow(adjs1, 2) + pow(adjs2, 2) - pow(opps, 2)) / (2.0 * adjs1 * adjs2));
 
 	//convert to deg
-	a1 = a1 * (180 / M_PI);
-	a2 = a2 * (180 / M_PI);
-	a3 = a3 * (180 / M_PI);
+	C = C * (180.0 / M_PI);
+	//almost certainly going to be the source of fp error at some point but I don't think there's anything I can do
 
-	//option 1: simply print values to screen
-	printf("the triangles angles are: %f degrees, %f degrees, and %f degrees.\n", a1, a2, a3);
+	return C;
+}
+
+
+void calcAngles(float l1, float l2, float l3) {
+	//assumes lengths are already validated to form a triangle.
+
+	double a1 = getAngle(l2, l3, l1);
+	double a2 = getAngle(l1, l3, l2);
+	double a3 = getAngle(l1, l2, l3);
+
+	printf("the triangles angles are: %lf degrees, %lf degrees, and %lf degrees.\n", a1, a2, a3);
 
 }

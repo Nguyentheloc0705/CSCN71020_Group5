@@ -58,7 +58,7 @@ bool isRectangle(SIDES q) {
 	}
 	//rectangles have three matching pairs: short parallels, long parallels, and diagonals.
 	//things like diamonds, kites or trapezoids all have less or more than three (0, 2, 4, 6, etc.)
-	//in addition, since squares are rectangles, they must be included too. they have seven matching pairs 
+	//in addition, since squares are rectangles, they must be included too. they have 7 matching pairs 
 	// (side1-2, side1-3, side1-4, side2-3, side2-4, side3-4, diagonals). all other quadrilaterals have less
 
 
