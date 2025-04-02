@@ -1,18 +1,17 @@
-﻿  Inputs.c
-  isTriangle.c
+﻿  interiorAngles.c
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(15,13): warning C4013: 'acos' undefined; assuming extern returning int
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(15,19): warning C4013: 'pow' undefined; assuming extern returning int
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(20,19): error C2065: 'M_PI': undeclared identifier
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(21,19): error C2065: 'M_PI': undeclared identifier
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(22,19): error C2065: 'M_PI': undeclared identifier
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(15,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(16,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\interiorAngles.c(17,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   rectangles.c
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(31,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(39,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(47,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(62,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(70,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(78,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(88,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(96,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(104,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(114,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\Inputs.c(122,8): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\david\source\repos\CSCN71020_GroupProject\Group Project\rectangles.c(54,3): warning C4013: 'printf' undefined; assuming extern returning int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h(13,10): error C1083: Cannot open include file: '_defs.h': No such file or directory
+  (compiling source file 'rectangles.c')
+  
   source.c
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\source.c(30,25): error C2440: 'function': cannot convert from 'SIDE' to 'QUADRI'
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\Group Project\source.c(30,25): warning C4024: 'isRectangle': different types for formal and actual parameter 1
   Generating Code...
-  Group Project.vcxproj -> C:\Users\david\Source\Repos\CSCN71020_GroupProject\x64\Debug\Group Project.exe

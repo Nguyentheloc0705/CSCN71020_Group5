@@ -26,7 +26,7 @@ int main() {
         else if (choice == 2) {
             float x1, x2, x3, x4, y1, y2, y3, y4;
             get_rectangle_input(&x1, &y1, &x2, &y2, &x3, &y3, &x4, &y4);
-            SIDES sides = getSides(x1, x2, x3, x4, y1, y2, y3, y4);
+            SIDE sides = getSides(x1, x2, x3, x4, y1, y2, y3, y4);
             isRectangle(sides);
         }
         else if (choice == 3) {

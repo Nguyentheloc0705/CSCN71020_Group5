@@ -1,0 +1,7 @@
+﻿  Source.c
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(29,35): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(29,62): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(30,36): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(30,63): warning C4305: 'function': truncation from 'double' to 'float'
+C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(30,92): warning C4305: 'function': truncation from 'double' to 'float'
+  UnitTester.vcxproj -> C:\Users\mattb\Source\Repos\CSCN71020_Group5\Perimeter-and-Area\x64\Debug\UnitTester.exe

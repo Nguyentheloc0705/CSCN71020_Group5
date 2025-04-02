@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Area-and-Perimeter.c" />
     <ClCompile Include="Inputs.c" />
     <ClCompile Include="interiorAngles.c" />
     <ClCompile Include="isTriangle.c" />
@@ -135,6 +136,7 @@
     <ClCompile Include="source.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Area-and-Perimeter.h" />
     <ClInclude Include="Inputs.h" />
     <ClInclude Include="interiorAngles.h" />
     <ClInclude Include="isTriangle.h" />
