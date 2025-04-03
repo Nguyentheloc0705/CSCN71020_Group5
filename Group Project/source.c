@@ -13,6 +13,15 @@ void get_rectangle_input() {
 
 int main() {
 
+    QUADRI c = getQuadri(1.1,3.2, 11.1,3.2, 11.1,23.2, 1.1,23.2);
+    bool what = isRectangle(c);
+    if (what == true) {
+        printf("hyes\n");
+    }
+    else if (what == false) {
+        printf("nol\n");
+    }
+    
    /* int choice;
     while (1) {
         printf("\nMenu:\n1. Triangle Feature\n2. Rectangle Feature\n3. Exit\n");

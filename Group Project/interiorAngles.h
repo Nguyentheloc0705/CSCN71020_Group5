@@ -5,8 +5,8 @@
 #pragma once
 
 
-double getAngle(float adjs1, float adjs2, float opps);
+ double getAngle( double adjs1,  double adjs2,  double opps);
 
-void calcAngles(float l1, float l2, float l3);
+void calcAngles( double l1,  double l2,  double l3);
 
 

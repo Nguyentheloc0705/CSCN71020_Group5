@@ -1,49 +1,31 @@
-﻿  interiorAngles.c
-  rectangles.c
+﻿  rectangles.c
   sidelengths.c
-  source.c
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(11,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(12,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(13,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(14,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(15,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(16,9): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(32,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(33,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(34,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(37,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(38,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(39,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(42,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(43,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(44,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(58,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(59,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(60,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(63,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(64,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(65,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(68,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(69,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(70,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(84,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(85,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(86,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(89,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(90,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(91,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(94,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(95,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(96,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(107,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(108,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(109,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(112,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(113,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(114,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(117,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(118,12): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(119,12): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(14,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   Generating Code...
-  LINK : C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.exe not found or not built by the last incremental link; performing full link
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(15,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(16,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(17,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(18,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(19,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(62,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(63,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(64,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(66,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(67,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(68,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(74,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(75,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(76,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(78,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(79,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(80,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(84,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(85,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(86,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(88,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(89,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(90,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(42,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(43,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(44,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   Group Project.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.exe

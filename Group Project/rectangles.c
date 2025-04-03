@@ -9,46 +9,53 @@
 bool isRectangle(QUADRI q) {
 
 	int equality = 0;
-	
+
+	//in theory, if they're equal, they should be equal, but you never know with floats...
+	int lAB = trunc(q.AB.length * 100000.0);//it should be fine if this one keeps its digits, right?
+	int lAC = trunc(q.AC.length * 100000.0);
+	int lAD = trunc(q.AD.length * 100000.0);
+	int lBC = trunc(q.BC.length * 100000.0);
+	int lBD = trunc(q.BD.length * 100000.0);
+	int lCD = trunc(q.CD.length * 100000.0);
+
+
 	//compares AB to all other sides
-	if (q.AB.length == q.AC.length)
+	if (lAB == lAC)
 		equality++;
-	if (q.AB.length == q.AD.length)
+	if (lAB == lAD)
 		equality++;
-	if (q.AB.length == q.BC.length)
+	if (lAB == lBC)
 		equality++;
-	if (q.AB.length == q.BD.length)
+	if (lAB == lBD)
 		equality++;
-	if (q.AB.length == q.CD.length)
+	if (lAB == lCD)
 		equality++;
 	//compares AC to all remaining sides
-	if (q.AC.length == q.AD.length)
+	if (lAC == lAD)
 		equality++;
-	if (q.AC.length == q.BC.length)
+	if (lAC == lBC)
 		equality++;
-	if (q.AC.length == q.BD.length)
+	if (lAC == lBD)
 		equality++;
-	if (q.AC.length == q.CD.length)
+	if (lAC == lCD)
 		equality++;
 	//compares AD to all remaining sides
-	if (q.AD.length == q.BC.length)
+	if (lAD == lBC)
 		equality++;
-	if (q.AD.length == q.BD.length)
+	if (lAD == lBD)
 		equality++;
-	if (q.AD.length == q.CD.length)
+	if (lAD == lCD)
 		equality++;
 	//compares BC to all remaining sides
-	if (q.BC.length == q.BD.length)
+	if (lBC == lBD)
 		equality++;
-	if (q.BC.length == q.CD.length)
+	if (lBC == lCD)
 		equality++;
 	//compares BD to all remaining sides
-	if (q.BD.length == q.CD.length)
+	if (lBD == lCD)
 		equality++;
 
 	//cant use else because we have to check all of these
-	//might be prone to floating point errors but there's not much I can do about that
-
 
 	if (equality == 3 || equality == 7) {
 		return true;
@@ -56,10 +63,10 @@ bool isRectangle(QUADRI q) {
 	else {
 		return false;
 	}
-	//rectangles have three matching pairs: short parallels, long parallels, and diagonals.
-	//things like diamonds, kites or trapezoids all have less or more than three (0, 2, 4, 6, etc.)
+	//rectangles have 3 matching pairs: short parallels, long parallels, and diagonals.
+	//things like diamonds, kites or trapezoids all have less or more than 3 (0, 2, 4, 6, etc.)
 	//in addition, since squares are rectangles, they must be included too. they have 7 matching pairs 
-	// (side1-2, side1-3, side1-4, side2-3, side2-4, side3-4, diagonals). all other quadrilaterals have less
+	// (side1-2, side1-3, side1-4, side2-3, side2-4, side3-4, diagonals). all other quadrilaterals have less.
 
 
 }

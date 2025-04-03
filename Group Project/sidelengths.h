@@ -22,5 +22,5 @@ typedef struct quadrilateral {
 } QUADRI;
 
 
-SIDE getSideLength(float x1, float y1, float x2, float y2);
-QUADRI getQuadri(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4);
+SIDE getSideLength(double x1, double y1, double x2, double y2);
+QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4);
