@@ -11,12 +11,12 @@ bool isRectangle(QUADRI q) {
 	int equality = 0;
 
 	//in theory, if they're equal, they should be equal, but you never know with floats...
-	int lAB = trunc(q.AB.length * 100000.0);//it should be fine if this one keeps its digits, right?
-	int lAC = trunc(q.AC.length * 100000.0);
-	int lAD = trunc(q.AD.length * 100000.0);
-	int lBC = trunc(q.BC.length * 100000.0);
-	int lBD = trunc(q.BD.length * 100000.0);
-	int lCD = trunc(q.CD.length * 100000.0);
+	int lAB = trunc(q.AB.length * 1000000.0);//it should be fine if this one keeps its digits, right?
+	int lAC = trunc(q.AC.length * 1000000.0);
+	int lAD = trunc(q.AD.length * 1000000.0);
+	int lBC = trunc(q.BC.length * 1000000.0);
+	int lBD = trunc(q.BD.length * 1000000.0);
+	int lCD = trunc(q.CD.length * 1000000.0);
 
 
 	//compares AB to all other sides

@@ -3,9 +3,12 @@
 
 extern "C" {
 #include "../Group Project/sidelengths.h"
+#include "../Group Project/rectangles.h"
 }
 extern "C" SIDE getSideLength(double, double, double, double);
 extern "C" QUADRI getQuadri(double, double, double, double, double, double, double, double);
+extern "C" bool isRectangle(QUADRI);
+
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace GroupProjecttests
@@ -146,4 +149,94 @@ namespace GroupProjecttests
 		}
 
 	};
+
+	TEST_CLASS(IsRectangleTests)
+	{
+	public:
+		TEST_METHOD(TestBasicRectangle)
+		{
+			QUADRI q = getQuadri(0, 0, 3, 0, 3, 4, 0, 4);
+			Assert::AreEqual(true, isRectangle(q));
+		}
+
+		TEST_METHOD(TestSquare)
+		{
+			QUADRI q = getQuadri(0, 0, 2, 0, 2, 2, 0, 2);
+			Assert::AreEqual(true, isRectangle(q));
+		}
+
+		TEST_METHOD(TestRotatedRectangle)
+		{
+			QUADRI q = getQuadri(0, 0, 1, 1, 0, 2, -1, 1);
+			Assert::AreEqual(true, isRectangle(q));
+		}
+
+		TEST_METHOD(TestRhombus)
+		{
+			QUADRI q = getQuadri(0, 0, 1, 2, 2, 0, 1, -2);
+			Assert::AreEqual(false, isRectangle(q));
+		}
+
+		TEST_METHOD(TestIrregularQuadrilateral)
+		{
+			QUADRI q = getQuadri(0, 0, 1, 3, 5, 2, 2, -1);
+			Assert::AreEqual(false, isRectangle(q));
+		}
+
+		TEST_METHOD(TestParallelogram)
+		{
+			QUADRI q = getQuadri(0, 0, 3, 0, 4, 2, 1, 2);
+			Assert::AreEqual(false, isRectangle(q));
+		}
+
+		TEST_METHOD(TestNearlyRectangle)
+		{
+			QUADRI q = getQuadri(0, 0, 3, 0, 3.01, 4, 0, 4);
+			Assert::AreEqual(false, isRectangle(q));
+		}
+
+		TEST_METHOD(TestTrapezoid)
+		{
+			QUADRI q = getQuadri(0, 0, 4, 0, 3, 2, 1, 2);
+			Assert::AreEqual(false, isRectangle(q));
+		}
+
+		TEST_METHOD(TestDegenerateShape)
+		{
+			QUADRI q = getQuadri(0, 1, 0, 0, 2, 2, 0, 2);
+			bool result = isRectangle(q);
+			Assert::AreEqual(false, result);
+		}
+
+		TEST_METHOD(TestExtremeCoordinates)
+		{
+			QUADRI q = getQuadri(1000000, 1000000, 1000100, 1000000, 1000100, 1000050, 1000000, 1000050);
+			Assert::AreEqual(true, isRectangle(q));
+		}
+
+		TEST_METHOD(TestKite)
+		{
+			QUADRI q = getQuadri(0, 0, 1, 2, 0, 4, -1, 2);
+			Assert::AreEqual(false, isRectangle(q));
+		}
+
+		TEST_METHOD(TestConcaveShape)
+		{
+			QUADRI q = getQuadri(0, 0, 2, 0, 1, 1, 0, 2);
+			Assert::AreEqual(false, isRectangle(q));
+		}
+
+		TEST_METHOD(TestRectangleWithDecimalCoordinates)
+		{
+			QUADRI q = getQuadri(1.5, 2.5, 4.5, 2.5, 4.5, 6.5, 1.5, 6.5);
+			Assert::AreEqual(true, isRectangle(q));
+		}
+
+		TEST_METHOD(TestRectangleWithLotsOfDecimalCoordinates)
+		{
+			QUADRI q = getQuadri(48.458639, -28.571997, 48.458639, 51.475087, -12.121998, -28.571997, -12.121998, 51.475087);
+			Assert::AreEqual(true, isRectangle(q));
+		}
+	};
+
 }

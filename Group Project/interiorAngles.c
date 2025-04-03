@@ -5,12 +5,18 @@
 #define _USE_MATH_DEFINES // for C
 #include <math.h>
 #include "interiorAngles.h"
+#include <stdlib.h>
+
 
 
 
 
 
 double getAngle(double adjs1, double adjs2, double opps) {
+	if (adjs1 == 0.0 || adjs2 == 0.0) {
+		printf("side lengths cannot be zero\n");
+		exit(EXIT_FAILURE);
+	}
 	//cosine law
 	// C = cos^-1(  ( a^2 + b^2 - c^2 ) / (2ab)  )
 	//	  C	  cos^-1     a^2             b^2             -c^2                2ab
