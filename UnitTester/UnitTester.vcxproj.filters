@@ -21,12 +21,18 @@
     <ClCompile Include="TestArea and Perimeter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TestinteriorAngles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestArea and Perimeter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sidelengths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestinteriorAngles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

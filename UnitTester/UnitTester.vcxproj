@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Source.c" />
     <ClCompile Include="TestArea and Perimeter.c" />
+    <ClCompile Include="TestinteriorAngles.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sidelengths.h" />
     <ClInclude Include="TestArea and Perimeter.h" />
+    <ClInclude Include="TestinteriorAngles.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
