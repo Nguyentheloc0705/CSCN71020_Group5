@@ -1,0 +1,8 @@
+﻿  Group Project.tests.cpp
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project.tests\Group Project.tests.cpp(113,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/Group%20Project.tests.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project.tests\Group Project.tests.cpp(134,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/Group%20Project.tests.cpp')
+  
+  Group Project.tests.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.tests.dll
