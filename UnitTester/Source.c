@@ -45,11 +45,14 @@ int main(void) {
 	//area
 	TestAreaandPerimeter(true, false, 3.807, 3.5, 1.5, 1.5, 3.5, 3.807, diagonal, edge, edge, 5.25);
 
-	//TestAreaandPerimeter(false, true, 3, 5, 4, 4, 5, 3, edge, diagonal, edge, 14);
+	TestAreaandPerimeter(false, true, 3, 5, 4, 4, 5, 3, edge, diagonal, edge, 14);
 
 	TestinteriorAngles(2, 2, 2, 60, 60, 60);
 	TestinteriorAngles(2, 5, 5, 23.0739180656, 78.4630409672, 78.4630409672);
 	TestinteriorAngles(3, 5, 7, 21.7867892983, 38.2132107017, 120);
+
+	//this error has been fixed but if it did somehow reach it would crash
+	TestinteriorAngles(0, 2, 2, 0, 0, 0);
 
 	TestinteriorAngles(2.2, 2.2, 2.2, 60, 60, 60);
 	TestinteriorAngles(3.2, 5.2, 2.2, 18.95, 148.15, 12.9);
