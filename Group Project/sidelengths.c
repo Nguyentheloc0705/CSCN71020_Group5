@@ -53,8 +53,8 @@ QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y
 	//using the cosine law will result in the outer angle rather than the inner one.
 	//as such, the three angles should be equal to a full 360 degrees
 
-	if (diff1 <= 1) { 
-	//if the difference is off by 1 (which represents 0.001), 
+	if (diff1 <= 2) { 
+	//if the difference is off by 2 (which represents 0.002), 
 	//then it was likely from a rounding/truncation/float/rational num/irrational num error
 	//which cannot be corrected for.
 	//(i.e. a square with sidelenghts 1 may not result in 90 degree angles because its diagonals are irrational (sqrt2),
@@ -70,7 +70,7 @@ QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y
 		//as such, all other sides are NOT opposite.
 
 	}
-	else if (diff2 <= 1) {
+	else if (diff2 <= 2) {
 		q.AB.type == edge;
 		q.AC.type == diagonal;
 		q.AD.type == edge;
@@ -80,7 +80,7 @@ QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y
 		q.CD.type == edge;
 
 	}
-	else if (diff3 <= 1) {
+	else if (diff3 <= 2) {
 		q.AB.type == edge;
 		q.AC.type == edge;
 		q.AD.type == diagonal; 
@@ -90,7 +90,7 @@ QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y
 		q.CD.type == edge;
 
 	}
-	else if(diff360 <= 1) {
+	else if(diff360 <= 2) {
 	//means the shape must be concave. 
 	//with four possible variations, it is impossible to determine which is 'correct'
 	//as such, we will arbitrarily choose one. there is no other way
