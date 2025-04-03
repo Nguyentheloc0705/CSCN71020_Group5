@@ -55,6 +55,6 @@ int main(void) {
 	TestinteriorAngles(0, 2, 2, 0, 0, 0);
 
 	TestinteriorAngles(2.2, 2.2, 2.2, 60, 60, 60);
-	TestinteriorAngles(3.2, 5.2, 2.2, 18.95, 148.15, 12.9);
+	TestinteriorAngles(3.2, 5.2, 2.2, 18.94967034, 148.1499245, 12.90040518);
 	return 0;
 }
