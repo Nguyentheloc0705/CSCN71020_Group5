@@ -1,11 +1,4 @@
-﻿  Source.c
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(44,35): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(44,62): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(46,36): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(46,63): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(51,30): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(51,45): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(51,60): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(52,30): warning C4305: 'function': truncation from 'double' to 'float'
-C:\Users\mattb\source\repos\CSCN71020_Group5\Perimeter-and-Area\UnitTester\Source.c(52,45): warning C4305: 'function': truncation from 'double' to 'float'
-  UnitTester.vcxproj -> C:\Users\mattb\Source\Repos\CSCN71020_Group5\Perimeter-and-Area\x64\Debug\UnitTester.exe
+﻿  TestinteriorAngles.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h(13,10): error C1083: Cannot open include file: '_defs.h': No such file or directory
+  (compiling source file 'TestinteriorAngles.c')
+  

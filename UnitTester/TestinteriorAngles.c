@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define _USE_MATH_DEFINES // for C
-#define M_PI 3.14159265358979323846
-//#include <math.h>
+//#define M_PI 3.14159265358979323846
+#include <math.h>
 
 #include "TestinteriorAngles.h"
 
@@ -28,7 +28,7 @@ float calcAngles(float l1, float l2, float l3,int angle) {
 	else if (angle == 1) {
 		return a2;
 	}
-	else {
+	else if (angle == 2){
 		return a3;
 	}
 }
