@@ -1,16 +1,1 @@
-﻿  interiorAngles.c
-  rectangles.c
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(14,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(15,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(16,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(17,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(18,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\rectangles.c(19,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  sidelengths.c
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(42,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(43,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(44,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  source.c
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\source.c(17,12): warning C4101: 'q': unreferenced local variable
-  Generating Code...
-  Group Project.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.lib
+﻿  Group Project.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.lib

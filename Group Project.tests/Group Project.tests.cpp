@@ -198,6 +198,32 @@ namespace GroupProjecttests
 
 			Assert::AreEqual(true, quadriEquality(A, B));
 		}
+		TEST_METHOD(UnorderedRectangle)
+		{
+			double x1 = 0.0;
+			double y1 = 0.0;
+
+			double x2 = 4.0;
+			double y2 = 3.0;
+
+			double x3 = 4.0;
+			double y3 = 0.0;
+
+			double x4 = 0.0;
+			double y4 = 3.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = diagonal;
+			B.AC.type = edge;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = edge;
+			B.CD.type = diagonal;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
 
 	};
 
