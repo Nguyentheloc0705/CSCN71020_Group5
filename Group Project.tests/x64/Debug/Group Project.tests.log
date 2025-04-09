@@ -1,10 +1,8 @@
-﻿  pch.cpp
-  Group Project.tests.cpp
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project.tests\Group Project.tests.cpp(116,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  Group Project.tests.cpp
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project.tests\Group Project.tests.cpp(132,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file '/Group%20Project.tests.cpp')
   
-C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project.tests\Group Project.tests.cpp(137,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project.tests\Group Project.tests.cpp(153,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file '/Group%20Project.tests.cpp')
   
-     Creating library C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.tests.lib and object C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.tests.exp
   Group Project.tests.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.tests.dll

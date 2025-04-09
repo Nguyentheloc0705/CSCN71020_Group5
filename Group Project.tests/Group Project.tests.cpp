@@ -11,8 +11,24 @@ extern "C" bool isRectangle(QUADRI);
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
+//areequal doesn't work on structs, so this function is for that
+//getquadri calculates sidelengths using the getsidelength function, so that doesn't need to be tested
+bool quadriEquality(QUADRI a, QUADRI b) {
+	if (a.AB.type == b.AB.type &&
+		a.AC.type == b.AC.type &&
+		a.AD.type == b.AD.type &&
+		a.BC.type == b.BC.type &&
+		a.BD.type == b.BD.type &&
+		a.CD.type == b.CD.type)
+		return true;
+	else 
+		return false;
+}
+
+
 namespace GroupProjecttests
-{
+{	
+	//written by sebastian
 	TEST_CLASS(getSideLengthTests)
 	{
 	public:
@@ -138,18 +154,54 @@ namespace GroupProjecttests
 			Assert::AreEqual(14874010,a);
 		}
 
-	};
-
-	TEST_CLASS(getQuadriTests)
-	{
-	public:
-
-		TEST_METHOD(dos)
-		{
+		TEST_METHOD(BigNumbers)
+		{//side x =500000
+			//side y = 1200000.0
+			double x1 = 1000000.0;
+			double y1 = 0.0;
+			double x2 = 13000000.0;
+			double y2 = 5000000.0;
+			SIDE A = getSideLength(x1, y1, x2, y2);
+			Assert::AreEqual(13000000.0, A.length);
 		}
 
 	};
 
+	//written by sebastian
+	TEST_CLASS(getQuadriTests)
+	{
+	public:
+
+		TEST_METHOD(OrdinaryRectangle)
+		{ 
+			double x1 = 0.0;
+			double y1 = 0.0;
+
+			double x2 = 4.0;
+			double y2 = 0.0;
+
+			double x3 = 4.0;
+			double y3 = 3.0;
+
+			double x4 = 0.0;
+			double y4 = 3.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = diagonal;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = diagonal;
+			B.CD.type = edge;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+	};
+
+	//written by David
 	TEST_CLASS(IsRectangleTests)
 	{
 	public:
