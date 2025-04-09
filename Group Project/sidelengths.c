@@ -59,35 +59,35 @@ QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y
 	//which cannot be corrected for.
 	//(i.e. a square with sidelenghts 1 may not result in 90 degree angles because its diagonals are irrational (sqrt2),
 	//leaving the result as 89.99999999 or something
-		q.AB.type == diagonal;//shared between BAC and BAD
-		q.AC.type == edge;
-		q.AD.type == edge;
+		q.AB.type = diagonal;//shared between BAC and BAD
+		q.AC.type = edge;
+		q.AD.type = edge;
 
-		q.BC.type == edge;
-		q.BD.type == edge;
-		q.CD.type == diagonal;
+		q.BC.type = edge;
+		q.BD.type = edge;
+		q.CD.type = diagonal;
 		//by definition, if points A and B are opposites, then points C and D must also be opposite.
 		//as such, all other sides are NOT opposite.
 
 	}
 	else if (diff2 <= 2) {
-		q.AB.type == edge;
-		q.AC.type == diagonal;
-		q.AD.type == edge;
+		q.AB.type = edge;
+		q.AC.type = diagonal;
+		q.AD.type = edge;
 
-		q.BC.type == edge;
-		q.BD.type == diagonal;
-		q.CD.type == edge;
+		q.BC.type = edge;
+		q.BD.type = diagonal;
+		q.CD.type = edge;
 
 	}
 	else if (diff3 <= 2) {
-		q.AB.type == edge;
-		q.AC.type == edge;
-		q.AD.type == diagonal; 
+		q.AB.type = edge;
+		q.AC.type = edge;
+		q.AD.type = diagonal; 
 
-		q.BC.type == diagonal;
-		q.BD.type == edge;
-		q.CD.type == edge;
+		q.BC.type = diagonal;
+		q.BD.type = edge;
+		q.CD.type = edge;
 
 	}
 	else if(diff360 <= 2) {
