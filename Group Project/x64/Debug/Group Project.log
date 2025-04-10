@@ -1,4 +1,17 @@
-﻿  Inputs.c
+﻿  Area and Perimeter.c
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(10,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(11,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(12,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(13,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(16,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(17,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(18,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(19,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(22,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(23,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(24,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Area and Perimeter.c(25,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Inputs.c
 C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Inputs.c(31,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Inputs.c(39,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\Inputs.c(47,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
@@ -25,4 +38,4 @@ C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(43,13):
 C:\Users\sebas\source\repos\CSCN71020_Group5\Group Project\sidelengths.c(44,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   source.c
   Generating Code...
-  Group Project.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.lib
+  Group Project.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Group Project.exe

@@ -1,10 +1,35 @@
-﻿  pch.cpp
-  Testing.cpp
-C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(134,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+﻿  Testing.cpp
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(135,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file '/Testing.cpp')
   
-C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(155,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(156,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file '/Testing.cpp')
   
-     Creating library C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Testing.lib and object C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Testing.exp
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(641,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(642,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(646,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(647,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(651,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(652,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(656,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(661,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Testing.cpp')
+  
+C:\Users\sebas\source\repos\CSCN71020_Group5\Testing\Testing.cpp(662,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file '/Testing.cpp')
+  
   Testing.vcxproj -> C:\Users\sebas\source\repos\CSCN71020_Group5\x64\Debug\Testing.dll

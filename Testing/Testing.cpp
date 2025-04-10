@@ -6,6 +6,7 @@ extern "C" {
 #include "../Group Project/rectangles.h"
 #include "../Group Project/isTriangle.h"
 #include "../Group Project/interiorAngles.h"
+#include "../Group Project/Area and Perimeter.h"
 }
 
 
@@ -635,7 +636,7 @@ namespace GroupProjecttests
 		}
 	};
 
-	/*TEST_CLASS(getAngles) {
+	TEST_CLASS(getAngles) {
 		TEST_METHOD(_testIsocelesTriangles1) {
 			float result = getAngle(5, 5, 2);
 			float answer = 23.0739;
@@ -658,9 +659,9 @@ namespace GroupProjecttests
 		}
 		TEST_METHOD(_testScalarTriangle3) {
 			float result = getAngle(5, 7, 3);
-			float answer =21.7867;
+			float answer =21.7868;
 			Assert::AreEqual(answer, result);
-		}*/
+		}
 
-	//};
+	};
 }

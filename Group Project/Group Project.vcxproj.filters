@@ -33,6 +33,9 @@
     <ClCompile Include="isTriangle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Area and Perimeter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="interiorAngles.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="isTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Area and Perimeter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
