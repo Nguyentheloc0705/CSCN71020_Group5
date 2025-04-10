@@ -43,6 +43,7 @@ QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y
 	int aBAD = trunc(taBAD * 1000.0);
 	int aCAD = trunc(taCAD * 1000.0);
 
+	printf("%d, %d, %d\n", aBAC, aBAD, aCAD);
 	//if two angles are equal to the third, the bigger angle is formed between the outer sides
 	//the shared side between the two smaller angles must then be a diagonal
 	int diff1 = abs(aCAD - (aBAC + aBAD)); //if equal, the difference =0, if not, =!0
@@ -52,7 +53,7 @@ QUADRI getQuadri(double x1, double y1, double x2, double y2, double x3, double y
 	//360000 = 360 degrees, for angles on concave shapes. for interior angles >180,
 	//using the cosine law will result in the outer angle rather than the inner one.
 	//as such, the three angles should be equal to a full 360 degrees
-
+	printf("%d, %d, %d, %d(360) \n", diff1, diff2, diff3, diff360);
 
 
 	if (diff1 <= 2) { 

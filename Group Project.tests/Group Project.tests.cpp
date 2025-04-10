@@ -198,6 +198,7 @@ namespace GroupProjecttests
 
 			Assert::AreEqual(true, quadriEquality(A, B));
 		}
+
 		TEST_METHOD(UnorderedRectangle)
 		{
 			double x1 = 0.0;
@@ -224,6 +225,276 @@ namespace GroupProjecttests
 
 			Assert::AreEqual(true, quadriEquality(A, B));
 		}
+
+		TEST_METHOD(RandomQuadrilateral)
+		{
+			double x1 = 6.92;
+			double y1 = 2.34;
+
+			double x2 = 16.71;
+			double y2 = 8.9213;
+
+			double x3 = -16.0;
+			double y3 = 0.1;
+
+			double x4 = 12.245;
+			double y4 = 10.2;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = edge;
+			B.AD.type = diagonal;
+			B.BC.type = diagonal;
+			B.BD.type = edge;
+			B.CD.type = edge;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(ExteriorIsLongest)
+		{
+			double x1 = 0.0;
+			double y1 = 0.0;
+
+			double x2 = 20.0;
+			double y2 = 0.0;
+
+			double x3 = 11.0;
+			double y3 = 3.0;
+
+			double x4 = 9.0;
+			double y4 = 3.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = diagonal;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = diagonal;
+			B.CD.type = edge;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(DartHeadOnA)
+		{
+			double x1 = 0.0;
+			double y1 = 0.0;
+
+			double x2 = 10.0;
+			double y2 = 0.0;
+
+			double x3 = 3.0;
+			double y3 = 3.0;
+
+			double x4 = 0.0;
+			double y4 = 10.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = diagonal;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = diagonal;
+			B.CD.type = edge;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(DartHeadOnAAlt)
+		{
+			double x1 = 0.0;
+			double y1 = 0.0;
+
+			double x2 = 10.0;
+			double y2 = 0.0;
+
+			double x3 = 3.0;
+			double y3 = 3.0;
+
+			double x4 = 0.0;
+			double y4 = 10.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = edge;
+			B.AD.type = diagonal;
+			B.BC.type = diagonal;
+			B.BD.type = edge;
+			B.CD.type = edge;
+
+			Assert::AreEqual(false, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(DartHeadOnB)
+		{
+			double x1 = 10.0;
+			double y1 = 0.0;
+
+			double x2 = 0.0;
+			double y2 = 0.0;
+			
+			double x3 = 3.0;
+			double y3 = 3.0;
+
+			double x4 = 0.0;
+			double y4 = 10.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = diagonal;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = diagonal;
+			B.CD.type = edge;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(UnorderedDartHead)
+		{
+			double x1 = 0.0;
+			double y1 = 0.0;
+
+			double x2 = 3.0;
+			double y2 = 3.0;
+
+			double x3 = 10.0;
+			double y3 = 0.0;
+
+			double x4 = 0.0;
+			double y4 = 10.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = diagonal;
+			B.AC.type = edge;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = edge;
+			B.CD.type = diagonal;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(DartTailOnA)
+		{
+			double x1 = 3.0;
+			double y1 = 3.0;
+
+			double x2 = 10.0;
+			double y2 = 0.0;
+
+			double x3 = 0.0;
+			double y3 = 0.0;
+
+			double x4 = 0.0;
+			double y4 = 10.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = diagonal;
+			B.AC.type = edge;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = edge;
+			B.CD.type = diagonal;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(DartTailOnAAlt)
+		{
+			double x1 = 3.0;
+			double y1 = 3.0;
+
+			double x2 = 0.0;
+			double y2 = 0.0;
+
+			double x3 = 10.0;
+			double y3 = 0.0;
+
+			double x4 = 0.0;
+			double y4 = 10.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = diagonal;
+			B.AC.type = edge;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = edge;
+			B.CD.type = diagonal;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+
+		TEST_METHOD(DegenerateHead)
+		{
+			double x1 = 0.0;
+			double y1 = 0.0;
+
+			double x2 = 10.0;
+			double y2 = 0.0;
+
+			double x3 = 5.0;
+			double y3 = 5.0;
+
+			double x4 = 0.0;
+			double y4 = 10.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = diagonal;
+			B.AD.type = edge;
+			B.BC.type = edge;
+			B.BD.type = diagonal;
+			B.CD.type = edge;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+		TEST_METHOD(DegeneratePoint)
+		{
+			double x1 = 5.0;
+			double y1 = 5.0;
+
+			double x2 = 10.0;
+			double y2 = 0.0;
+
+			double x3 = 0.0;
+			double y3 = 10.0;
+
+			double x4 = 0.0;
+			double y4 = 0.0;
+
+			QUADRI A = getQuadri(x1, y1, x2, y2, x3, y3, x4, y4);
+
+			QUADRI B = { 0 };
+			B.AB.type = edge;
+			B.AC.type = edge;
+			B.AD.type = diagonal;
+			B.BC.type = diagonal;
+			B.BD.type = edge;
+			B.CD.type = edge;
+
+			Assert::AreEqual(true, quadriEquality(A, B));
+		}
+	
 
 	};
 
