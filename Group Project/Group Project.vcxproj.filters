@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="interiorAngles.c">
       <Filter>Source Files</Filter>
     </ClCompile>

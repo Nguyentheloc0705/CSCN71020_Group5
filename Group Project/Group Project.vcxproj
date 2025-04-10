@@ -130,6 +130,7 @@
     <ClCompile Include="interiorAngles.c" />
     <ClCompile Include="rectangles.c" />
     <ClCompile Include="sidelengths.c" />
+    <ClCompile Include="source.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="interiorAngles.h" />
