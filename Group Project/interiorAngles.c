@@ -4,13 +4,18 @@
 #include <stdio.h>
 #define _USE_MATH_DEFINES // for C
 #include <math.h>
+#include <stdlib.h>
 #include "interiorAngles.h"
 
 
 
 
 
-double getAngle(float adjs1, float adjs2, float opps) {
+double getAngle(double adjs1, double adjs2, double opps) {
+	if (adjs1 == 0.0 || adjs2 == 0.0) {
+		printf("side lengths cannot be zero\n");
+		exit(EXIT_FAILURE);
+	}
 	//cosine law
 	// C = cos^-1(  ( a^2 + b^2 - c^2 ) / (2ab)  )
 	//	  C	  cos^-1     a^2             b^2             -c^2                2ab
@@ -24,7 +29,7 @@ double getAngle(float adjs1, float adjs2, float opps) {
 }
 
 
-void calcAngles(float l1, float l2, float l3) {
+void calcAngles(double l1, double l2, double l3) {
 	//assumes lengths are already validated to form a triangle.
 
 	double a1 = getAngle(l2, l3, l1);
