@@ -662,5 +662,5 @@ namespace GroupProjecttests
 			Assert::AreEqual(answer, result);
 		}*/
 
-	};
+	//};
 }

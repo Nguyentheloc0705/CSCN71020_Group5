@@ -476,37 +476,9 @@ C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(588,36): w
 C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(588,25): warning C4305: 'argument': truncation from 'double' to 'float'
   (compiling source file '/Testing.cpp')
   
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(640,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(666,1): error C2059: syntax error: '}'
   (compiling source file '/Testing.cpp')
   
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(641,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(666,1): error C2143: syntax error: missing ';' before '}'
   (compiling source file '/Testing.cpp')
   
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(645,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/Testing.cpp')
-  
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(646,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file '/Testing.cpp')
-  
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(650,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/Testing.cpp')
-  
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(651,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file '/Testing.cpp')
-  
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(655,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/Testing.cpp')
-  
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(656,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-  (compiling source file '/Testing.cpp')
-  
-C:\Users\david\source\repos\CSCN71020_Group5final\Testing\Testing.cpp(660,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/Testing.cpp')
-  
-     Creating library C:\Users\david\Source\Repos\CSCN71020_Group5final\x64\Debug\Testing.lib and object C:\Users\david\Source\Repos\CSCN71020_Group5final\x64\Debug\Testing.exp
-Testing.obj : error LNK2019: unresolved external symbol getSideLength referenced in function "public: void __cdecl GroupProjecttests::getSideLengthTests::BigNumbers(void)" (?BigNumbers@getSideLengthTests@GroupProjecttests@@QEAAXXZ)
-Testing.obj : error LNK2019: unresolved external symbol getQuadri referenced in function "public: void __cdecl GroupProjecttests::getQuadriTests::DartHeadOnA(void)" (?DartHeadOnA@getQuadriTests@GroupProjecttests@@QEAAXXZ)
-Testing.obj : error LNK2019: unresolved external symbol isRectangle referenced in function "public: void __cdecl GroupProjecttests::IsRectangleTests::TestBasicRectangle(void)" (?TestBasicRectangle@IsRectangleTests@GroupProjecttests@@QEAAXXZ)
-Testing.obj : error LNK2019: unresolved external symbol isTriangle referenced in function "private: void __cdecl GroupProjecttests::isTriangle_test::isTriangle_fail_case_0(void)" (?isTriangle_fail_case_0@isTriangle_test@GroupProjecttests@@AEAAXXZ)
-Testing.obj : error LNK2019: unresolved external symbol getAngle referenced in function "private: void __cdecl GroupProjecttests::getAngles::_testIsocelesTriangles1(void)" (?_testIsocelesTriangles1@getAngles@GroupProjecttests@@AEAAXXZ)
-C:\Users\david\Source\Repos\CSCN71020_Group5final\x64\Debug\Testing.dll : fatal error LNK1120: 5 unresolved externals
